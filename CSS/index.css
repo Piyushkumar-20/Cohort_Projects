@@ -1,0 +1,138 @@
+:root{
+    --text-color: #333333;
+    --accent-color: #4caf50;
+    --accent-hover-color: #3583c8;
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+
+}
+
+body{
+    background-color: #1d1d1f;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+nav > div {
+    background-color: #d5d5d5;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+    margin: 20px auto;
+    padding: 10px 20px;
+    border-radius: 8px;
+}
+
+nav h1{
+    color: #333333;
+    font-size: 24px;
+}
+
+nav div a {
+    color: #333333;
+    text-decoration: none;
+    margin-left: 15px;
+    font-size: 18px;
+}
+
+nav div a:hover{
+    text-decoration: underline;
+}
+
+nav div button{
+    background-color: var(--accent-color);
+    color: #ffffff;
+    border: none;
+    font-size: 16px;
+    border-radius: 4px;
+    padding: 8px 16px;
+}
+
+nav div button:hover{
+    background-color: var(--accent-hover-color);
+}
+
+main{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    width: 80%;
+    margin: 20px auto;
+    gap: 20px;
+}
+
+.main-left{
+    color: #ffffff;
+    width: 80%;
+    margin: 80px auto;
+    padding: 20px;
+}
+
+.main-left h2{
+    font-size: 80px;
+    margin-bottom: 15px;
+}
+
+.main-left p{
+    font-size: 24px;
+    color: #d5d5d5;
+    line-height: 1.5;
+
+}
+
+.main-left button{
+    background-color: var(--accent-color);
+    color: #ffffff;
+    border: none;
+    font-size: 16px;
+    border-radius: 4px;
+    padding: 8px 16px;
+    margin-top: 20px;
+}
+
+.main-left button:hover{
+    background-color: var(--accent-hover-color)
+}
+
+.main-right img{
+    border-radius: 8px;
+
+}
+
+.content h2{
+    color: #ffffff;
+    font-size: 36px;
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+.cohort-cards{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+.card{
+    background-color: #2c2c2c;
+    color: #ffffff;
+    padding: 20px;
+    width: 250px;
+    text-align: center;
+    display: flex;
+    gap: 15px;
+
+}
+
+.card-button{
+    background-color: var(--accent-color);
+    color: #ffffff;
+    border: none;
+    font-size: 16px;
+    border-radius: 4px;
+    padding: 8px 16px;
+    margin-top: 20px;
+    cursor: pointer;
+
+}
